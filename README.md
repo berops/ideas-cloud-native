@@ -19,3 +19,7 @@ The envisioned workflow is the following:
 4. The PR carries the necessary description of the idea, written in at least two paragraphs (1. problem, 2. solution).
 5. If the idea makes it to real-world and turns into an open-source project, the link (or links, if there are more projects spawned) are added into this list accordingly.
 6. If the time tells, that an idea, which has been added to a list some time ago is not relevant anymore, a PR is created to remove it. Again, 2 weeks of staging followed by the same evaluation principles apply.
+
+## Ideas
+
+[K8s cluster setup validation workload](k8s-setup-validation-workload.md) A workload that will be deployed after a cluster is created in order to run a series of conformance tests (e.g. on available capacity, connectivity, DNS resolution)
