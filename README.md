@@ -19,3 +19,7 @@ The envisioned workflow is the following:
 4. The PR carries the necessary description of the idea, written in at least two paragraphs (1. problem, 2. solution).
 5. If the idea makes it to real-world and turns into an open-source project, the link (or links, if there are more projects spawned) are added into this list accordingly.
 6. If the time tells, that an idea, which has been added to a list some time ago is not relevant anymore, a PR is created to remove it. Again, 2 weeks of staging followed by the same evaluation principles apply.
+
+## Ideas
+
+[K8s RBAC interactive visualizer](k8s-rbac-interactive-visualizer) A GUI app for displaying a cluster RBAC setup, with links among groups, service-accounts, roles and bindings. This includes basic interaction with the user, i.e. displaying the details of the role upon selection or describing a consolidated list of privileges.
