@@ -11,4 +11,4 @@ There are several criterias of a successful setup that can be validated by deplo
 - network connectivity, (internal, external) incl. `NetworkPolicy` setup (check by running client/server connections between pods as per the needs)
 - DNS resolution tests
 
-The workload requirements would be described in form of an input for a central test controller. Based on this inputs, the controller would run a series of tests, then collect and present the results.
+The workload requirements would be described in form of an input for a central test controller. Based on these inputs, the controller would run a series of tests, then collect and present the results.
