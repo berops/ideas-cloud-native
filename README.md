@@ -22,4 +22,6 @@ The envisioned workflow is the following:
 
 ## Ideas
 
+[K8s cluster setup validation workload](k8s-setup-validation-workload.md) A workload that will be deployed after a cluster is created in order to run a series of conformance tests (e.g. on available capacity, connectivity, DNS resolution)
+
 [K8s RBAC interactive visualizer](k8s-rbac-interactive-visualizer) A GUI app for displaying a cluster RBAC setup, with links among groups, service-accounts, roles and bindings. This includes basic interaction with the user, i.e. displaying the details of the role upon selection or describing a consolidated list of privileges.
