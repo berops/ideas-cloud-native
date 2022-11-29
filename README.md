@@ -25,3 +25,5 @@ The envisioned workflow is the following:
 [K8s cluster setup validation workload](k8s-setup-validation-workload.md) A workload that will be deployed after a cluster is created in order to run a series of conformance tests (e.g. on available capacity, connectivity, DNS resolution)
 
 [K8s RBAC interactive visualizer](k8s-rbac-interactive-visualizer.md) A GUI app for displaying a cluster RBAC setup, with links among groups, service-accounts, roles and bindings. This includes basic interaction with the user, i.e. displaying the details of the role upon selection or describing a consolidated list of privileges.
+
+[Terraform Debug provider](terraform-debug-provider.md) A provider that helps debugging variables when Terraform is executed indirectly (e.g. through Terramate, Terragrunt, in the pipelines, etc.).
