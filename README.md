@@ -22,6 +22,8 @@ The envisioned workflow is the following:
 
 ## Ideas
 
+[Frontend generator from CUE schemas](frontend-generator-from-cuelang.md) One of the use-cases of CUElang is [schema definition](https://cuelang.org/docs/usecases/datadef/). From the schema, a frontend generator will create a frontend instance, that would allow human users to create configurations, matching the schema. This could be then used as a universal frontend generator to all things JSON and YAML defined (e.g. the whole K8s world, including custom resources).
+
 [K8s cluster setup validation workload](k8s-setup-validation-workload.md) A workload that will be deployed after a cluster is created in order to run a series of conformance tests (e.g. on available capacity, connectivity, DNS resolution)
 
 [K8s RBAC interactive visualizer](k8s-rbac-interactive-visualizer.md) A GUI app for displaying a cluster RBAC setup, with links among groups, service-accounts, roles and bindings. This includes basic interaction with the user, i.e. displaying the details of the role upon selection or describing a consolidated list of privileges.
